@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=sd, initial-scale=1.0">
+    <meta http-equiv="refresh" content="15">
+    <meta name="keywords" content="belajar meta tag html">
+    <meta name="description" content="belajar meta tag html">
+    <title>Pratikum 4</title>
+    <style>
+        body {
+            line-height: 28px;
+            background-color: rgba(19, 19, 19, 0.531)
+        }
+        
+        .container {
+            width: 1400px;
+            margin: center;
+            background-color: rgba(76, 213, 192, 0.66);
+            padding: 50px;
+        }
+        
+        form {
+            width: 500px;
+            height: 600px;
+            background-color: rgba(74, 220, 215, 0.687);
+            margin: 30px auto;
+        }
+        
+        fieldset {
+            width: fit-content;
+            margin: auto;
+            background-color: whitesmoke;
+        }
+        
+        legend {
+            text-align: center;
+            font-size: 30px;
+            padding-top: 10px;
+            color: rgba(57, 10, 10, 0.816);
+            padding-bottom: 10px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            margin: 50px auto;
+        }
+        
+        table td {
+            padding: 5px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <legend> BIODATA DIRI</legend>
+                <table>
+                    <tr>
+                        <td> <label>Nama </label></td>
+                        <td>: <input type="text" name="name" placeholder="Masukan nama" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td> <label>Tempat Lahir </label></td>
+                        <td>: <input type="text" name="name" placeholder="Masukan Tempat Lahir" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td> <label>Tanggal Lahir </label></td>
+                        <td>: <input type="date" name="tanggal"></td>
+                    </tr>
+                    <tr>
+                        <td> <label>Jenis Kelamin </label></td>
+                        <td>:
+                            <label for="laki-laki"><input type="radio"id="laki-laki" name="gender">laki-laki</label>
+                            <label for="perempuan"><input type="radio"id="perempuan" name="gender">perempuan</label>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Pendidikan Terakhir</label>
+                        </td>
+                        <td>: <select name="pendidikan terakhir" id="pendidikan terakhir">
+                            <option>Pilih Pendidikan Terakhir</option>
+                            <option value="sd">SD</option>
+                            <option value="smp">SMP</option>
+                            <option value="sma/smk">SMA/SMK</option>
+                            <option value="kuliah">D1</option>
+                            <option value="kuliah">D2</option>
+                            <option value="kuliah">D3</option>
+                            <option value="kuliah">D4</option>
+                            <option value="kuliah">S1</option>
+                            <option value="kuliah">S2</option>
+                            <option value="kuliah">S3</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Pendidikan Saat ini</label>
+                        </td>
+                        <td>: <select name="pendidikan saat ini" id="pendidikan saat ini">
+                            <option>Pilih Pendidikan saat ini</option>
+                            <option value="sd">SD</option>
+                            <option value="smp">SMP</option>
+                            <option value="sma/smk">SMA/SMK</option>
+                            <option value="kuliah">D1</option>
+                            <option value="kuliah">D2</option>
+                            <option value="kuliah">D3</option>
+                            <option value="kuliah">D4</option>
+                            <option value="kuliah">S1</option>
+                            <option value="kuliah">S2</option>
+                            <option value="kuliah">S3</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>NO Telp/Hp</label>
+                        </td>
+                        <td>: <input type="number" name="telp" placeholder="Masukan No Telp/Hp"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Alamat</label>
+                        </td>
+                        <td>: <textarea name="textarea" cols="20" rows="5" placeholder="Masukan Alamat"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="left">
+                            <input type="submit" class="button">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
