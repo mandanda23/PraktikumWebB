@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+
+    <style>
+        body {
+            background-image: url(1.jpg);
+        }
+        
+        .container {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        
+        input[type="button"] {
+            width: 4em;
+            height: 3em;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type="button"]:hover {
+            background: #bb4f11;
+        }
+        
+        .btn {
+            background-color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        alert("selamat menggunakan kalkulator");
+    </script>
+    <div class="container">
+
+        <form>
+            <h1>KALKULATOR SEDERHANA</h1>
+            <table>
+                <tr>
+                    <td>
+                        <h3>bil 1: <input style="width: 20em; height: 2em;" type="number" id="a" placeholder="Masukan bilangan"> </h3>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>bil 2: <input style="width: 20em; height: 2em;" type="number" id="b" placeholder="Masukan bilangan"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>hasil :<input style="width: 20em; height: 2em;" type="text" id="hasil" placeholder="0" class="form-control" disabled></h3>
+                    </td>
+
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><input type="button" value="DEL" class="btn" onclick="delit()" /></td>
+                    <td><input type="button" value="x" onclick="kali()" /></td>
+                    <td><input type="button" value="+" onclick="tambah()" /></td>
+                    <td><input type="button" value="-" onclick="kurang()" /></td>
+                    <td><input type="button" value="/" onclick="bagi()" /></td>
+                    <td><input type="button" value="^2" onclick="pangkat()" /></td>
+                    <td><input type="button" value="%" onclick="mod()" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="anjay.js"></script>
+</body>
+
+</html>
