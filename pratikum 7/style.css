@@ -1,0 +1,23 @@
+body {
+    background-image: url(1.jpg);
+}
+
+.container {
+    width: 600px;
+    padding: 6px;
+    height: 280px;
+    margin: 150pt auto;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+}
+
+.akhir {
+    width: 600px;
+    padding: 6px;
+    height: 375px;
+    margin: 150pt auto;
+    background-color: rgb(255, 255, 255);
+}
